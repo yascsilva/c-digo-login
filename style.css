@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    background-color: rgb(255, 135, 225);
+   
+.container{
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+.caixa{
+        height: 40px;
+    }
+}
+
+#form{
+    background-color: rgb(247, 92, 188);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid gray;
+    border-bottom: 5px;
+    border-radius: 7px;
+}
+
+label{
+    margin-top: 20px;
+    margin-bottom: 5px; ;
+    font-size: 20px;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(255, 177, 236);
+    border-color: rgb(248, 156, 202);
+
+.btn:active{
+        background-color: pink;
+        border-color: pink;
+        transform: translateY(4px);
+        box-shadow: 0px 5px;
+    }
+    
+}
